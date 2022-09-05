@@ -1,0 +1,11 @@
+.list {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:black solid 2px;
+}
+
+.list p {
+    margin-left: 1rem;
+
+}
