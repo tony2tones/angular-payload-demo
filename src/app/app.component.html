@@ -1,10 +1,8 @@
 <div class="container">
-  IS THIS HERE?
-  <div class="content">
-    <div class="list" *ngFor="let country of countries">
-      <p>{{ country.name }}</p>
-      <p>{{ country.cca2 }}</p>
-      <p>{{ country.population }}</p>
+    <div class="country" *ngFor="let country of countries">
+      <ul class="countries">
+        <li>{{ country.name }} - {{ country.population }}</li>
+        
+      </ul>
     </div>
-  </div>
 </div>

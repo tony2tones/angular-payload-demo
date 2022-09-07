@@ -1,11 +1,24 @@
-.list {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border:black solid 2px;
+.container {
+  min-height: 100vh;
+  padding: 1rem 0.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.list p {
-    margin-left: 1rem;
+.countries {
+  flex-direction: row;
+  height:1rem;
+  margin: 1rem;
+}
 
+.country {
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  margin: 5px;
+}
+
+.countries li {
+  list-style: none;
 }
